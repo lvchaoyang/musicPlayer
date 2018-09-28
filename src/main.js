@@ -3,9 +3,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import fastclick from 'fastclick'
-
+import VueResource from 'vue-resource'
 import 'common/stylus/index.styl'
-
+Vue.use(VueResource)
 fastclick.attach(document.body)
 
 /* eslint-disable no-new */
